@@ -14,7 +14,7 @@ function fun(){
 };
 function fun2(){
    var s = divel2.classList.toggle('hidden');
-    divel1.classList.add('hidden');
+    divel.classList.add('hidden');
     if(s){
         document.getElementById("s").src = "images/icon-arrow-down.svg";
     }else{
